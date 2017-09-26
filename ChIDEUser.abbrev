@@ -1,0 +1,37 @@
+# ChIDE version 7.0
+# This is the user abbreviations file ChIDEUser.abbrev for ChIDE.
+# Place the user abbreviations file ChIDEUser.abbrev in Windows
+# or .ChIDEUser.abbrev in Unix in your home directory, that is, 
+# the same directory as the user startup file .chrc or chrc. 
+# The abbreviations file contains a list of entries of the form 
+#     abbreviation=expansion
+# Type the abbreviation and press Ctrl+B to insert the expansion.
+# An abbreviation name can have any character, including accented 
+# characters and multibyte characters for Asian languages such as Chinese.
+# The '|' marks the position where the caret will be after expansion.
+
+# The default abbreviation 'hw' will create the following homework template.
+# /***********************************************
+#  * File:    myhello.c
+#  * Homework 1 for EME5, Fall 2011
+#  * Purpose: Print multiple lines on the screen.
+#  * Author:  FirstName LastName 
+#  ***********************************************/
+#  #include <stdio.h>
+#
+#  int main() {
+#      printf("\n");
+#      return 0;
+#  }
+hw=/***********************************************\n * File:    |myhello.c \n * Homework 1 for EME5, Fall 2011\n * Purpose: Print multiple lines on the screen.\n * Author:  FirstName LastName\n ***********************************************/\n#include <stdio.h>\n\nint main() {\n    printf("\\n");\n    return 0;\n}
+
+# You may uncomment the 'hw' below and replace 
+# Homework #, ClassName, Fall 2011, FirstName, LastName 
+# with the proper information for your homework.
+#hw=/***********************************************\n * File:    |.c \n * Homework # for ClassName, Fall 2011\n * Purpose: \n * Author:  FirstName LastName\n ***********************************************/\n#include <stdio.h>\n\nint main() {\n    printf("\\n");\n    return 0;\n}
+
+# Homework 作业 in Chinese. You may replace
+# 计算机编程作业 #,  2011 秋季, 姓名 
+# with the proper information for your homework in Chinese.
+作业=/***********************************************\n * 文件名: |.c \n * 计算机编程作业 #, 2011 秋季\n * 目的:  \n * 作者:  姓名\n ***********************************************/\n#include <stdio.h>\n\nint main() {\n    printf("\\n");\n    return 0;\n}
+

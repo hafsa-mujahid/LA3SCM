@@ -1,0 +1,15 @@
+\t (00:00:02) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:02)     Journal start - Tue Apr 14 17:26:02 2015
+\t (00:00:02)         Host=CEN-XXXXXXXXXXX User=CEN-IT Pid=6524 CPUs=8
+\t (00:00:02) 
+\e (00:00:03) Retrieval of 'Allegro_studio' license failed: 'ERROR (LMF-02018): License call failed for feature Allegro_studio, version 16.600 and quantity 1. The license server search path is defined as 5280@eng_apps. The FLEXnet error message is as follows,
+    FLEXnet ERROR(-18, 0, 0): License server system does not support this feature.
+
+Run 'lic_error LMF-02018' for more information.'
+\i (00:00:13) fillin confirm
+\e (00:00:13) Retrieval of 'Allegro_studio' license failed: 'ERROR (LMF-02018): License call failed for feature Allegro_studio, version 16.600 and quantity 1. The license server search path is defined as 5280@eng_apps. The FLEXnet error message is as follows,
+    FLEXnet ERROR(-18, 0, 0): License server system does not support this feature.
+
+Run 'lic_error LMF-02018' for more information.'
+\i (00:00:14) fillin confirm
+\t (00:00:14)     Journal end - Tue Apr 14 17:26:14 2015

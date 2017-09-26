@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace_Configuration>
+  <Version>2011</Version>
+  <RibbonState>
+    <Ribbon_Configuration>
+      <tab name="QuickBar" type="QuickBar" display_name="QuickBar">
+        <group groupControls="false" name="QuickBar" display_name="QuickBar" icon="" editable="true">
+          <control start="false">
+            <name>Open</name>
+            <type>Button</type>
+            <controlStyle>Icon</controlStyle>
+            <link>false</link>
+            <command>
+              <category>Common</category>
+              <name>Open</name>
+              <type>Common</type>
+              <icon>folder.ico</icon>
+              <order>0</order>
+            </command>
+          </control>
+          <control start="false">
+            <name>Save</name>
+            <type>Button</type>
+            <controlStyle>Icon</controlStyle>
+            <link>false</link>
+            <command>
+              <category>Common</category>
+              <name>Save</name>
+              <type>Common</type>
+              <icon>floppy_disk.ico</icon>
+              <order>0</order>
+            </command>
+          </control>
+          <control start="false">
+            <name>Undo</name>
+            <type>Button</type>
+            <controlStyle>Icon</controlStyle>
+            <link>false</link>
+            <command>
+              <category>Common</category>
+              <name>Undo</name>
+              <type>Common</type>
+              <icon>undo_new.ico</icon>
+              <order>0</order>
+            </command>
+          </control>
+          <control start="false">
+            <name>Select</name>
+            <type>Button</type>
+            <controlStyle>Icon</controlStyle>
+            <link>false</link>
+            <command>
+              <category>Common</category>
+              <name>Select</name>
+              <type>Common</type>
+              <icon>Select_by_Point.ico</icon>
+              <order>0</order>
+            </command>
+          </control>
+          <control start="false">
+            <name>Zoomin</name>
+            <type>Button</type>
+            <controlStyle>Icon</controlStyle>
+            <link>false</link>
+            <command>
+              <category>Common</category>
+              <name>Zoomin</name>
+              <type>Common</type>
+              <icon>v_zoom_in.ico</icon>
+              <order>0</order>
+            </command>
+          </control>
+          <control start="false">
+            <name>Zoomout</name>
+            <type>Button</type>
+            <controlStyle>Icon</controlStyle>
+            <link>false</link>
+            <command>
+              <category>Common</category>
+              <name>Zoomout</name>
+              <type>Common</type>
+              <icon>v_zoom_out.ico</icon>
+              <order>0</order>
+            </command>
+          </control>
+          <control start="false">
+            <name>Clear</name>
+            <type>Button</type>
+            <controlStyle>Icon</controlStyle>
+            <link>false</link>
+            <command>
+              <category>Common</category>
+              <name>Clear</name>
+              <type>Common</type>
+              <icon>eraser.ico</icon>
+              <order>0</order>
+            </command>
+          </control>
+        </group>
+      </tab>
+    </Ribbon_Configuration>
+    <ViewState>
+      <ApplicationState Name="Viewer" Current="true"/>
+      <Layout>VerticalLeft</Layout>
+      <Reflow>Grid</Reflow>
+    </ViewState>
+    <Minimized>false</Minimized>
+  </RibbonState>
+  <PaneState>
+    <Pane>
+      <Name>Contents</Name>
+      <Displayed>true</Displayed>
+      <Location>Left</Location>
+    </Pane>
+    <Pane>
+      <Name>Retriever</Name>
+      <Displayed>true</Displayed>
+      <Location>Left</Location>
+      <Neighbor>
+        <Name>Contents</Name>
+        <Location>Bottom</Location>
+      </Neighbor>
+    </Pane>
+  </PaneState>
+</Workspace_Configuration>
